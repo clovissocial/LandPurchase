@@ -436,7 +436,7 @@ a:hover {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 996;
   background: #2eca6a;
@@ -1915,4 +1915,21 @@ footer .copyright-footer {
 }
 footer .credits {
   font-size: 14px;
+}
+
+.buy-land {
+  background: #18d26e;
+  margin-top: 2rem !important;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  padding: 1rem 1.3rem;
+  font-weight: bold;
+}
+
+.buy-land:hover {
+  color: #000000;
+  background: transparent;
+  transition: 0.7s;
+  border: 1px solid #18d26e;
 }

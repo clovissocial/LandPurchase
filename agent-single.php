@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>EstateAgency Bootstrap Template - Agent Single</title>
+  <title>Land Finder And Purchase</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -24,110 +24,104 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: EstateAgency - v4.7.0
-  * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  
 </head>
 
 <body>
-<!-- ======= Property Search Section ======= -->
-<div class="click-closed"></div>
-<!--/ Form Search Star /-->
-<div class="box-collapse">
-  <div class="title-box-d">
-    <h3 class="title-d">Search Available Land</h3>
+  <!-- ======= Property Search Section ======= -->
+  <div class="click-closed"></div>
+  <!--/ Form Search Star /-->
+  <div class="box-collapse">
+    <div class="title-box-d">
+      <h3 class="title-d">Search Available Land</h3>
+    </div>
+    <span class="close-box-collapse right-boxed bi bi-x"></span>
+    <div class="box-collapse-wrap form">
+      <form class="form-a">
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <div class="form-group">
+              <label class="pb-2" for="Type">Keyword</label>
+              <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="Type">Type</label>
+              <select class="form-control form-select form-control-a" id="Type">
+                <option>All Type</option>
+                <option>Agricultural Area</option>
+                <option>Commercial Area</option>
+                <option>Residential Area</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="city">City</label>
+              <select class="form-control form-select form-control-a" id="city">
+                <option>All City</option>
+                <option>Buea</option>
+                <option>Limbe</option>
+                <option>Tiko</option>
+                <option>Mutengene</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="bedrooms">Hectares</label>
+              <select class="form-control form-select form-control-a" id="bedrooms">
+                <option>Any</option>
+                <option>200 - 1000 hectares</option>
+                <option>1500 - 4000 hectares</option>
+                <option>4500 - 10,0000 hectares</option>
+              </select>
+            </div>
+          </div>
+          <!-- <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="garages">Garages</label>
+              <select class="form-control form-select form-control-a" id="garages">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="bathrooms">Bathrooms</label>
+              <select class="form-control form-select form-control-a" id="bathrooms">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </select>
+            </div>
+          </div> -->
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="price">Min Price</label>
+              <select class="form-control form-select form-control-a" id="price">
+                <option>Unlimited</option>
+                <option>2,000,000  - 4000, 000 FCFA</option>
+                <option>4.5,000,000 - 10, 000, 000 FCFA</option>
+                <option>10.5,000,000 - 15, 000, 000 FCFA</option>
+                <option>15.5,000,000 - 25, 000, 000 FCFA</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-b">Search Land</button>
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
-  <span class="close-box-collapse right-boxed bi bi-x"></span>
-  <div class="box-collapse-wrap form">
-    <form class="form-a">
-      <div class="row">
-        <div class="col-md-12 mb-2">
-          <div class="form-group">
-            <label class="pb-2" for="Type">Keyword</label>
-            <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
-          </div>
-        </div>
-        <div class="col-md-6 mb-2">
-          <div class="form-group mt-3">
-            <label class="pb-2" for="Type">Type</label>
-            <select class="form-control form-select form-control-a" id="Type">
-              <option>All Type</option>
-              <option>Agricultural Area</option>
-              <option>Commercial Area</option>
-              <option>Residential Area</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-6 mb-2">
-          <div class="form-group mt-3">
-            <label class="pb-2" for="city">City</label>
-            <select class="form-control form-select form-control-a" id="city">
-              <option>All City</option>
-              <option>Buea</option>
-              <option>Limbe</option>
-              <option>Tiko</option>
-              <option>Mutengene</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-6 mb-2">
-          <div class="form-group mt-3">
-            <label class="pb-2" for="bedrooms">Hectares</label>
-            <select class="form-control form-select form-control-a" id="bedrooms">
-              <option>Any</option>
-              <option>200 hectares</option>
-              <option>300 hectares</option>
-              <option>700 hectares</option>
-            </select>
-          </div>
-        </div>
-        <!-- <div class="col-md-6 mb-2">
-          <div class="form-group mt-3">
-            <label class="pb-2" for="garages">Garages</label>
-            <select class="form-control form-select form-control-a" id="garages">
-              <option>Any</option>
-              <option>01</option>
-              <option>02</option>
-              <option>03</option>
-              <option>04</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-6 mb-2">
-          <div class="form-group mt-3">
-            <label class="pb-2" for="bathrooms">Bathrooms</label>
-            <select class="form-control form-select form-control-a" id="bathrooms">
-              <option>Any</option>
-              <option>01</option>
-              <option>02</option>
-              <option>03</option>
-            </select>
-          </div>
-        </div> -->
-        <div class="col-md-6 mb-2">
-          <div class="form-group mt-3">
-            <label class="pb-2" for="price">Min Price</label>
-            <select class="form-control form-select form-control-a" id="price">
-              <option>Unlimited</option>
-              <option>2,000,000 FCFA</option>
-              <option>4,000,000 FCFA</option>
-              <option>6,000,000 FCFA</option>
-              <option>8,000,000 FCFA</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <button type="submit" class="btn btn-b">Search Land</button>
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-<!-- End Property Search Section -->>
+  <!-- End Property Search Section -->>
 
   <!-- ======= Header/Navbar ======= -->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
@@ -137,38 +131,38 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.html">Land<span class="color-b">Detector</span></a>
+      <a class="navbar-brand text-brand" href="index.php">Land<span class="color-b">Finder</span></a>
 
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a class="nav-link " href="index.html">Home</a>
+            <a class="nav-link " href="index.php">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="about.html">About</a>
+            <a class="nav-link " href="about.php">About</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="property-grid.html">Available Lands</a>
+            <a class="nav-link " href="property-grid.php">Available Lands</a>
           </li>
 
           <!-- <li class="nav-item">
-            <a class="nav-link " href="blog-grid.html">Blog</a>
+            <a class="nav-link " href="blog-grid.php">Blog</a>
           </li> -->
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item active" href="property-single.html">Property Single</a>
-              <a class="dropdown-item " href="blog-single.html">Blog Single</a>
-              <a class="dropdown-item " href="agents-grid.html">Agents Grid</a>
-              <a class="dropdown-item " href="agent-single.html">Agent Single</a>
+              <a class="dropdown-item active" href="property-single.php">Property Single</a>
+              <a class="dropdown-item " href="blog-single.php">Blog Single</a>
+              <a class="dropdown-item " href="agents-grid.php">Agents Grid</a>
+              <a class="dropdown-item " href="agent-single.php">Agent Single</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="contact.html">Contact</a>
+            <a class="nav-link " href="contact.php">Contact</a>
           </li>
         </ul>
       </div>
@@ -188,8 +182,8 @@
         <div class="row">
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
-              <h1 class="title-single">Margaret Stone</h1>
-              <span class="color-text-a">Agent Immobiliari</span>
+              <h1 class="title-single">Nkenganyi Clovis</h1>
+              <span class="color-text-a">Buea Agent</span>
             </div>
           </div>
           <div class="col-md-12 col-lg-4">
@@ -202,7 +196,7 @@
                   <a href="#">Agents</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  Margaret Stone
+                  Nkenganyi Clovis
                 </li>
               </ol>
             </nav>
@@ -217,25 +211,25 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-4">
                 <div class="agent-avatar-box">
-                  <img src="assets/img/agent-7.jpg" alt="" class="agent-avatar img-fluid">
+                  <img src="assets/img/iphone.jpg" alt="" class="agent-avatar img-fluid">
                 </div>
               </div>
-              <div class="col-md-5 section-md-t3">
+              <div class="col-md-4 section-md-t3">
                 <div class="agent-info-box">
                   <div class="agent-title">
                     <div class="title-box-d">
-                      <h3 class="title-d">Margaret Stone
-                        <br> Escala
+                      <h3 class="title-d">Nkenganyi Tajocha
+                        <br> Clovis
                       </h3>
                     </div>
                   </div>
                   <div class="agent-content mb-3">
                     <p class="content-d color-text-a">
-                      Sed porttitor lectus nibh. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
-                      Vivamus suscipit tortor
-                      eget felis porttitor volutpat. Vivamus suscipit tortor eget felis porttitor volutpat.
+                      There's a land available behind Tradex Petrol Station in Mile 17 and am thw land owner. In case you are interested in
+                      buying the land, make sure to get in touch with me through the contact form or direct from the
+                      livechat so we get to discuss on it.
                     </p>
                     <div class="info-agents color-a">
                       <p>
@@ -286,6 +280,45 @@
                   </div>
                 </div>
               </div>
+
+              <!--======= Form Section =======-->
+              <div class="col-md-12 col-lg-4">
+                <div class="agent-title">
+                  <div class="title-box-d">
+                    <h3 class="title-d">Get In touch with me
+                      <br>
+                  </div>
+                </div>
+                <div class="property-contact">
+                  <form action="https://formsubmit.co/nkenganyiclovis9@gmail.com" method="POST" class="form-a">
+                    <input type="hidden" name="_autoresponse" value="Hello sir/madam, Land Detector will get back to you shortly">
+                    <!-- <input type="hidden" name="_captcha" value="false"> -->
+                    <div class="row">
+                      <div class="col-md-12 mb-1">
+                        <div class="form-group">
+                          <input type="text" name="name" class="form-control form-control-lg form-control-a" id="inputName" placeholder="Name *" required>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-1">
+                        <div class="form-group">
+                          <input type="hidden" name="_subject" value="Land Detector Email">
+                          <input type="email" name="email" class="form-control form-control-lg form-control-a" id="inputEmail1" placeholder="Email *" required>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-1">
+                        <div class="form-group">
+                          <textarea id="textMessage" class="form-control" placeholder="Comment *" name="message" cols="45" rows="8" required></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mt-3">
+                        <button type="submit" class="btn btn-a">Send Message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!--======= End Of Form Section =======-->
+
             </div>
           </div>
           <div class="col-md-12 section-t8">
@@ -315,7 +348,7 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="#">204 Mount
+                        <a href="property-single.php">204 Mount
                           <br /> Olive Road Two</a>
                       </h2>
                     </div>
@@ -323,7 +356,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">rent | $ 12.000</span>
                       </div>
-                      <a href="#" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -362,7 +395,7 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="#">204 Mount
+                        <a href="property-single.php">204 Mount
                           <br /> Olive Road Two</a>
                       </h2>
                     </div>
@@ -370,7 +403,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">rent | $ 12.000</span>
                       </div>
-                      <a href="#" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -409,7 +442,7 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="#">204 Mount
+                        <a href="property-single.php">204 Mount
                           <br /> Olive Road Two</a>
                       </h2>
                     </div>
@@ -417,7 +450,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">rent | $ 12.000</span>
                       </div>
-                      <a href="#" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -456,7 +489,7 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="#">204 Mount
+                        <a href="property-single.php">204 Mount
                           <br /> Olive Road Two</a>
                       </h2>
                     </div>
@@ -464,7 +497,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">rent | $ 12.000</span>
                       </div>
-                      <a href="#" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -503,7 +536,7 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="#">204 Mount
+                        <a href="property-single.php">204 Mount
                           <br /> Olive Road Two</a>
                       </h2>
                     </div>
@@ -511,7 +544,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">rent | $ 12.000</span>
                       </div>
-                      <a href="#" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -550,7 +583,7 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="#">204 Mount
+                        <a href="property-single.php">204 Mount
                           <br /> Olive Road Two</a>
                       </h2>
                     </div>
@@ -558,7 +591,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">rent | $ 12.000</span>
                       </div>
-                      <a href="#" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -662,16 +695,16 @@
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="about.html">About US</a>
+                  <i class="bi bi-chevron-right"></i> <a href="about.php">About US</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.html">Agents</a>
+                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.php">Agents</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="contact.html">Contact Us</a>
+                  <i class="bi bi-chevron-right"></i> <a href="contact.php">Contact Us</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="property-grid.html">Available lands</a>
+                  <i class="bi bi-chevron-right"></i> <a href="property-grid.php">Available lands</a>
                 </li>
               </ul>
             </div>
@@ -757,6 +790,22 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+  <!--=========== Tawk.to LiveChat Script Code ============-->
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/62187d131ffac05b1d7ba9e1/1fsnqh5sv';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
 
 </body>
 
