@@ -738,6 +738,10 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+<<<<<<< HEAD:agents-grid.php
+=======
+
+>>>>>>> 6a8e573be864cd8cfcaff105aa432e0436be3a66:agents-grid.html
   <!--=========== Tawk.to LiveChat Script Code ============-->
   <!--Start of Tawk.to Script-->
 <script type="text/javascript">
@@ -751,7 +755,11 @@
   s0.parentNode.insertBefore(s1,s0);
   })();
   </script>
+<<<<<<< HEAD:agents-grid.php
   <!--End of Tawk.to Script-->
+=======
+  <!--End of Tawk.to Script-->]
+>>>>>>> 6a8e573be864cd8cfcaff105aa432e0436be3a66:agents-grid.html
 
 </body>
 

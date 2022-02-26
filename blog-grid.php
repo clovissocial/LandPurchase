@@ -546,6 +546,10 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+<<<<<<< HEAD:blog-grid.php
+=======
+
+>>>>>>> 6a8e573be864cd8cfcaff105aa432e0436be3a66:blog-grid.html
   <!--=========== Tawk.to LiveChat Script Code ============-->
   <!--Start of Tawk.to Script-->
 <script type="text/javascript">

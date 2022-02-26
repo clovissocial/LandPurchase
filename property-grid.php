@@ -378,7 +378,11 @@
                     <div class="price-box d-flex">
                       <span class="price-a">Buy | 2.000,000 FCFA</span>
                     </div>
+<<<<<<< HEAD
                     <a href="property-buea.php" class="link-a">Click here to view
+=======
+                    <a href="property-single.php" class="link-a">Click here to view
+>>>>>>> 6a8e573be864cd8cfcaff105aa432e0436be3a66
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
@@ -698,6 +702,10 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6a8e573be864cd8cfcaff105aa432e0436be3a66
   <!--=========== Tawk.to LiveChat Script Code ============-->
   <!--Start of Tawk.to Script-->
 <script type="text/javascript">
