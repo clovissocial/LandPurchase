@@ -25,161 +25,156 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: EstateAgency - v4.7.0
-  * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
 
-  <!-- ======= Property Search Section ======= -->
-  <div class="click-closed"></div>
-  <!--/ Form Search Star /-->
-  <div class="box-collapse">
-    <div class="title-box-d">
-      <h3 class="title-d">Search Available Land</h3>
-    </div>
-    <span class="close-box-collapse right-boxed bi bi-x"></span>
-    <div class="box-collapse-wrap form">
-      <form class="form-a">
-        <div class="row">
-          <div class="col-md-12 mb-2">
-            <div class="form-group">
-              <label class="pb-2" for="Type">Keyword</label>
-              <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group mt-3">
-              <label class="pb-2" for="Type">Type</label>
-              <select class="form-control form-select form-control-a" id="Type">
-                <option>All Type</option>
-                <option>Agricultural Area</option>
-                <option>Commercial Area</option>
-                <option>Residential Area</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group mt-3">
-              <label class="pb-2" for="city">City</label>
-              <select class="form-control form-select form-control-a" id="city">
-                <option>All City</option>
-                <option>Buea</option>
-                <option>Limbe</option>
-                <option>Tiko</option>
-                <option>Mutengene</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group mt-3">
-              <label class="pb-2" for="bedrooms">Hectares</label>
-              <select class="form-control form-select form-control-a" id="bedrooms">
-                <option>Any</option>
-                <option>200 hectares</option>
-                <option>300 hectares</option>
-                <option>700 hectares</option>
-              </select>
-            </div>
-          </div>
-          <!-- <div class="col-md-6 mb-2">
-            <div class="form-group mt-3">
-              <label class="pb-2" for="garages">Garages</label>
-              <select class="form-control form-select form-control-a" id="garages">
-                <option>Any</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-                <option>04</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-group mt-3">
-              <label class="pb-2" for="bathrooms">Bathrooms</label>
-              <select class="form-control form-select form-control-a" id="bathrooms">
-                <option>Any</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-              </select>
-            </div>
-          </div> -->
-          <div class="col-md-6 mb-2">
-            <div class="form-group mt-3">
-              <label class="pb-2" for="price">Min Price</label>
-              <select class="form-control form-select form-control-a" id="price">
-                <option>Unlimited</option>
-                <option>2,000,000 FCFA</option>
-                <option>4,000,000 FCFA</option>
-                <option>6,000,000 FCFA</option>
-                <option>8,000,000 FCFA</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <button type="submit" class="btn btn-b">Search Land</button>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-  <!-- End Property Search Section -->>
-
-  <!-- ======= Header/Navbar ======= -->
-  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
-    <div class="container">
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <a class="navbar-brand text-brand" href="index.html">Land<span class="color-b">Detector</span></a>
-
-      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
-        <ul class="navbar-nav">
-
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link " href="about.html">About</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link " href="property-grid.html">Available Lands</a>
-          </li>
-
-          <!-- <li class="nav-item">
-            <a class="nav-link " href="blog-grid.html">Blog</a>
-          </li> -->
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item " href="property-single.html">Property Single</a>
-              <a class="dropdown-item " href="blog-single.html">Blog Single</a>
-              <a class="dropdown-item " href="agents-grid.html">Agents Grid</a>
-              <a class="dropdown-item " href="agent-single.html">Agent Single</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="contact.html">Contact</a>
-          </li>
-        </ul>
+    <!-- ======= Property Search Section ======= -->
+    <div class="click-closed"></div>
+    <!--/ Form Search Star /-->
+    <div class="box-collapse">
+      <div class="title-box-d">
+        <h3 class="title-d">Search Available Land</h3>
       </div>
-
-      <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
-        <i class="bi bi-search"></i>
-      </button>
-
+      <span class="close-box-collapse right-boxed bi bi-x"></span>
+      <div class="box-collapse-wrap form">
+        <form class="form-a">
+          <div class="row">
+            <div class="col-md-12 mb-2">
+              <div class="form-group">
+                <label class="pb-2" for="Type">Keyword</label>
+                <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="Type">Type</label>
+                <select class="form-control form-select form-control-a" id="Type">
+                  <option>All Type</option>
+                  <option>Agricultural Area</option>
+                  <option>Commercial Area</option>
+                  <option>Residential Area</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="city">City</label>
+                <select class="form-control form-select form-control-a" id="city">
+                  <option>All City</option>
+                  <option>Buea</option>
+                  <option>Limbe</option>
+                  <option>Tiko</option>
+                  <option>Mutengene</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="bedrooms">Hectares</label>
+                <select class="form-control form-select form-control-a" id="bedrooms">
+                  <option>Any</option>
+                  <option>200 - 1000 hectares</option>
+                  <option>1500 - 4000 hectares</option>
+                  <option>4500 - 10,0000 hectares</option>
+                </select>
+              </div>
+            </div>
+            <!-- <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="garages">Garages</label>
+                <select class="form-control form-select form-control-a" id="garages">
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                  <option>04</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="bathrooms">Bathrooms</label>
+                <select class="form-control form-select form-control-a" id="bathrooms">
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                </select>
+              </div>
+            </div> -->
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="price">Min Price</label>
+                <select class="form-control form-select form-control-a" id="price">
+                  <option>Unlimited</option>
+                  <option>2,000,000  - 4000, 000 FCFA</option>
+                  <option>4.5,000,000 - 10, 000, 000 FCFA</option>
+                  <option>10.5,000,000 - 15, 000, 000 FCFA</option>
+                  <option>15.5,000,000 - 25, 000, 000 FCFA</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-b">Search Land</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-  </nav><!-- End Header/Navbar -->
+    <!-- End Property Search Section -->>
+  
+    <!-- ======= Header/Navbar ======= -->
+    <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+      <div class="container">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a class="navbar-brand text-brand" href="index.php">Land<span class="color-b">Finder</span></a>
+  
+        <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+          <ul class="navbar-nav">
+  
+            <li class="nav-item">
+              <a class="nav-link " href="index.php">Home</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link " href="about.php">About</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link " href="property-grid.php">Available Lands</a>
+            </li>
+  
+            <!-- <li class="nav-item">
+              <a class="nav-link " href="blog-grid.php">Blog</a>
+            </li> -->
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item active" href="property-single.php">Property Single</a>
+                <a class="dropdown-item " href="blog-single.php">Blog Single</a>
+                <a class="dropdown-item " href="agents-grid.php">Agents Grid</a>
+                <a class="dropdown-item " href="agent-single.php">Agent Single</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="contact.php">Contact</a>
+            </li>
+          </ul>
+        </div>
+  
+        <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+          <i class="bi bi-search"></i>
+        </button>
+  
+      </div>
+    </nav><!-- End Header/Navbar -->
 
   <!-- ======= Intro Section ======= -->
   <div class="intro intro-carousel swiper position-relative">
@@ -201,7 +196,7 @@
                       <span class="color-b"> Buea</span>,Mile 17
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">Buy | 12. 000,000 FCFA</span></a>
+                      <a href="property-single.php"><span class="price-a">Buy | 12. 000,000 FCFA</span></a>
                     </p>
                   </div>
                 </div>
@@ -225,7 +220,7 @@
                       <span class="color-b">Mutengene
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">Buy | 10. 000,000 FCFA</span></a>
+                      <a href="property-single.php"><span class="price-a">Buy | 10. 000,000 FCFA</span></a>
                     </p>
                   </div>
                 </div>
@@ -249,7 +244,7 @@
                       <span class="color-b">Limbe </span> Mile 4
                     </h1>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">Buy | 17. 000,000 FCFA</span></a>
+                      <a href="property-single.tml"><span class="price-a">Buy | 17. 000,000 FCFA</span></a>
                     </p>
                   </div>
                 </div>
@@ -363,7 +358,7 @@
                 <h2 class="title-a">Latest Available Lands</h2>
               </div>
               <div class="title-link">
-                <a href="property-grid.html">All Property
+                <a href="property-grid.php">All Property
                   <span class="bi bi-chevron-right"></span>
                 </a>
               </div>
@@ -383,7 +378,7 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="property-single.html">Limbe
+                        <a href="property-single.php">Limbe
                           <br /> Mile 4</a>
                       </h2>
                     </div>
@@ -404,16 +399,16 @@
                           </span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Beds</h4>
-                          <span>2</span>
+                          <h4 class="card-info-title">Hectares</h4>
+                          <span>2000</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Baths</h4>
-                          <span>4</span>
+                          <h4 class="card-info-title">Town/City</h4>
+                          <span>Limbe</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Garages</h4>
-                          <span>1</span>
+                          <h4 class="card-info-title">Quarter</h4>
+                          <span>Mile 4</span>
                         </li>
                       </ul>
                     </div>
@@ -431,7 +426,7 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="property-single.html">Tiko
+                        <a href="property-single.php">Tiko
                           <br /> Behind CCC Plc</a>
                       </h2>
                     </div>
@@ -439,7 +434,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">Buy | 7. 000 000FCFA</span>
                       </div>
-                      <a href="property-single.html" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -452,16 +447,16 @@
                           </span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Beds</h4>
-                          <span>2</span>
+                          <h4 class="card-info-title">Hectares</h4>
+                          <span>4000</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Baths</h4>
-                          <span>4</span>
+                          <h4 class="card-info-title">Town/City</h4>
+                          <span>Tiko</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Garages</h4>
-                          <span>1</span>
+                          <h4 class="card-info-title">Quarter</h4>
+                          <span>CKC</span>
                         </li>
                       </ul>
                     </div>
@@ -479,7 +474,7 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="property-single.html">Buea
+                        <a href="property-single.php">Buea
                           <br /> Opposite Gendarmerie</a>
                       </h2>
                     </div>
@@ -487,7 +482,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">Buy | 18. 000, 000FCFA</span>
                       </div>
-                      <a href="property-single.html" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -500,16 +495,16 @@
                           </span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Beds</h4>
-                          <span>2</span>
+                          <h4 class="card-info-title">Hectares</h4>
+                          <span>1000</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Baths</h4>
-                          <span>4</span>
+                          <h4 class="card-info-title">Town/City</h4>
+                          <span>Buea</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Garages</h4>
-                          <span>1</span>
+                          <h4 class="card-info-title">Quarter</h4>
+                          <span>Mile-17</span>
                         </li>
                       </ul>
                     </div>
@@ -527,7 +522,7 @@
                   <div class="card-overlay-a-content">
                     <div class="card-header-a">
                       <h2 class="card-title-a">
-                        <a href="property-single.html">Buea Mile 17
+                        <a href="property-single.php">Buea Mile 17
                           <br /> Behind Tradex</a>
                       </h2>
                     </div>
@@ -535,7 +530,7 @@
                       <div class="price-box d-flex">
                         <span class="price-a">Buy | 2.000,000 FCFA</span>
                       </div>
-                      <a href="property-single.html" class="link-a">Click here to view
+                      <a href="property-single.php" class="link-a">Click here to view
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
@@ -548,16 +543,16 @@
                           </span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Beds</h4>
-                          <span>2</span>
+                          <h4 class="card-info-title">Hectares</h4>
+                          <span>2000</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Baths</h4>
-                          <span>4</span>
+                          <h4 class="card-info-title">Town/City</h4>
+                          <span>Buea</span>
                         </li>
                         <li>
-                          <h4 class="card-info-title">Garages</h4>
-                          <span>1</span>
+                          <h4 class="card-info-title">Quarter</h4>
+                          <span>Mile-17</span>
                         </li>
                       </ul>
                     </div>
@@ -582,7 +577,7 @@
                 <h2 class="title-a">Our Agents</h2>
               </div>
               <div class="title-link">
-                <a href="agents-grid.html">All Agents
+                <a href="agents-grid.php">All Agents
                   <span class="bi bi-chevron-right"></span>
                 </a>
               </div>
@@ -593,14 +588,14 @@
           <div class="col-md-4">
             <div class="card-box-d">
               <div class="card-img-d">
-                <img src="assets/img/iphone.jpg" alt="" class="img-d img-fluid">
+                <img src="assets/img/he.jpg" alt="" class="img-d img-fluid">
               </div>
               <div class="card-overlay card-overlay-hover">
                 <div class="card-header-d">
                   <div class="card-title-d align-self-center">
                     <h3 class="title-d">
-                      <a href="agent-single.html" class="link-two">Margaret Sotillo
-                        <br> Escala</a>
+                      <a href="agent-single.php" class="link-two">Nkenganyi Tajocha
+                        <br> Clovis</a>
                     </h3>
                   </div>
                 </div>
@@ -649,14 +644,14 @@
           <div class="col-md-4">
             <div class="card-box-d">
               <div class="card-img-d">
-                <img src="assets/img/Edited-5.jpg" alt="" class="img-d img-fluid">
+                <img src="assets/img/edited-12.jpg" alt="" class="img-d img-fluid">
               </div>
               <div class="card-overlay card-overlay-hover">
                 <div class="card-header-d">
                   <div class="card-title-d align-self-center">
                     <h3 class="title-d">
-                      <a href="agent-single.html" class="link-two">Stiven Spilver
-                        <br> Darw</a>
+                      <a href="agent-single.php" class="link-two">Ngoran
+                        <br> Raymond</a>
                     </h3>
                   </div>
                 </div>
@@ -705,14 +700,14 @@
           <div class="col-md-4">
             <div class="card-box-d">
               <div class="card-img-d">
-                <img src="assets/img/Edited-8.jpg" alt="" class="img-d img-fluid">
+                <img src="assets/img/hre.jpg" alt="" class="img-d img-fluid">
               </div>
               <div class="card-overlay card-overlay-hover">
                 <div class="card-header-d">
                   <div class="card-title-d align-self-center">
                     <h3 class="title-d">
-                      <a href="agent-single.html" class="link-two">Emma Toledo
-                        <br> Cascada</a>
+                      <a href="agent-single.php" class="link-two">Claris Namondo
+                        <br> Ngeve</a>
                     </h3>
                   </div>
                 </div>
@@ -772,7 +767,7 @@
                 <h2 class="title-a">Latest News</h2>
               </div>
               <div class="title-link">
-                <a href="blog-grid.html">All News
+                <a href="blog-grid.php">All News
                   <span class="bi bi-chevron-right"></span>
                 </a>
               </div>
@@ -795,7 +790,7 @@
                     </div>
                     <div class="card-title-b">
                       <h2 class="title-2">
-                        <a href="blog-single.html">House is comming
+                        <a href="blog-single.php">House is comming
                           <br> new</a>
                       </h2>
                     </div>
@@ -821,7 +816,7 @@
                     </div>
                     <div class="card-title-b">
                       <h2 class="title-2">
-                        <a href="blog-single.html">Travel is comming
+                        <a href="blog-single.php">Travel is comming
                           <br> new</a>
                       </h2>
                     </div>
@@ -846,7 +841,7 @@
                     </div>
                     <div class="card-title-b">
                       <h2 class="title-2">
-                        <a href="blog-single.html">Park is comming
+                        <a href="blog-single.php">Park is comming
                           <br> new</a>
                       </h2>
                     </div>
@@ -915,7 +910,7 @@
                 <div class="row">
                   <div class="col-sm-12 col-md-6">
                     <div class="testimonial-img">
-                      <img src="assets/img/Edited-5.jpg" alt="" class="img-fluid">
+                      <img src="assets/img/hre.jpg" alt="" class="img-fluid">
                     </div>
                   </div>
                   <div class="col-sm-12 col-md-6">
@@ -928,7 +923,7 @@
                       </p>
                     </div>
                     <div class="testimonial-author-box">
-                      <img src="assets/img/Edited-5.jpg" alt="" class="testimonial-avatar">
+                      <img src="assets/img/hre.jpg" alt="" class="testimonial-avatar">
                       <h5 class="testimonial-author">Nkenganyi Clovis</h5>
                     </div>
                   </div>
@@ -1038,16 +1033,16 @@
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="about.html">About US</a>
+                  <i class="bi bi-chevron-right"></i> <a href="about.php">About US</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.html">Agents</a>
+                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.php">Agents</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="contact.html">Contact Us</a>
+                  <i class="bi bi-chevron-right"></i> <a href="contact.php">Contact Us</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="property-grid.html">Available lands</a>
+                  <i class="bi bi-chevron-right"></i> <a href="property-grid.php">Available lands</a>
                 </li>
               </ul>
             </div>
@@ -1122,6 +1117,99 @@
       </div>
     </div>
   </footer><!-- End  Footer -->
+  
+  
+
+  <div class="box-collapse">
+    <div class="title-box-d">
+      <h3 class="title-d">Search Available Land</h3>
+    </div>
+    <span class="close-box-collapse right-boxed bi bi-x"></span>
+    <div class="box-collapse-wrap form">
+      <form class="form-a" method="GET">
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <div class="form-group">
+              <label class="pb-2" for="Type">Keyword</label>
+              <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword" name="search" value="<?php if(isset($_GET['search'])){echo $_GET['search']; } ?>">
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="Type">Type</label>
+              <select class="form-control form-select form-control-a" id="Type">
+                <option>All Type</option>
+                <option>Agricultural Area</option>
+                <option>Commercial Area</option>
+                <option>Residential Area</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="city">City</label>
+              <select class="form-control form-select form-control-a" id="city">
+                <option>All City</option>
+                <option>Buea</option>
+                <option>Limbe</option>
+                <option>Tiko</option>
+                <option>Mutengene</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="bedrooms">Hectares</label>
+              <select class="form-control form-select form-control-a" id="bedrooms">
+                <option>Any</option>
+                <option>200 - 1000 hectares</option>
+                <option>1500 - 4000 hectares</option>
+                <option>4500 - 10,0000 hectares</option>
+              </select>
+            </div>
+          </div>
+          <!-- <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="garages">Garages</label>
+              <select class="form-control form-select form-control-a" id="garages">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="bathrooms">Bathrooms</label>
+              <select class="form-control form-select form-control-a" id="bathrooms">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </select>
+            </div>
+          </div> -->
+          <div class="col-md-6 mb-2">
+            <div class="form-group mt-3">
+              <label class="pb-2" for="price">Min Price</label>
+              <select class="form-control form-select form-control-a" id="price">
+                <option>Unlimited</option>
+                <option>2,000,000  - 4000, 000 FCFA</option>
+                <option>4.5,000,000 - 10, 000, 000 FCFA</option>
+                <option>10.5,000,000 - 15, 000, 000 FCFA</option>
+                <option>15.5,000,000 - 25, 000, 000 FCFA</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-b">Search Land</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -1133,6 +1221,23 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+
+  <!--=========== Tawk.to LiveChat Script Code ============-->
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/62187d131ffac05b1d7ba9e1/1fsnqh5sv';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
 
 </body>
 

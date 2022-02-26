@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>EstateAgency Bootstrap Template - Index</title>
+  <title>Land Finder And Purchase</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -25,12 +25,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: EstateAgency - v4.7.0
-  * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -44,7 +38,7 @@
     </div>
     <span class="close-box-collapse right-boxed bi bi-x"></span>
     <div class="box-collapse-wrap form">
-      <form class="form-a">
+      <form class="form-a" method="GET">
         <div class="row">
           <div class="col-md-12 mb-2">
             <div class="form-group">
@@ -80,9 +74,9 @@
               <label class="pb-2" for="bedrooms">Hectares</label>
               <select class="form-control form-select form-control-a" id="bedrooms">
                 <option>Any</option>
-                <option>200 hectares</option>
-                <option>300 hectares</option>
-                <option>700 hectares</option>
+                <option>200 - 1000 hectares</option>
+                <option>1500 - 4000 hectares</option>
+                <option>4500 - 10,0000 hectares</option>
               </select>
             </div>
           </div>
@@ -114,15 +108,15 @@
               <label class="pb-2" for="price">Min Price</label>
               <select class="form-control form-select form-control-a" id="price">
                 <option>Unlimited</option>
-                <option>2,000,000 FCFA</option>
-                <option>4,000,000 FCFA</option>
-                <option>6,000,000 FCFA</option>
-                <option>8,000,000 FCFA</option>
+                <option>2,000,000  - 4000, 000 FCFA</option>
+                <option>4.5,000,000 - 10, 000, 000 FCFA</option>
+                <option>10.5,000,000 - 15, 000, 000 FCFA</option>
+                <option>15.5,000,000 - 25, 000, 000 FCFA</option>
               </select>
             </div>
           </div>
           <div class="col-md-12">
-            <button type="submit" class="btn btn-b">Search Land</button>
+            <button type="submit" name="search" value="" class="btn btn-b">Search Land</button>
           </div>
         </div>
       </form>
@@ -138,38 +132,38 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.html">Land<span class="color-b">Detector</span></a>
+      <a class="navbar-brand text-brand" href="index.php">Land<span class="color-b">Finder</span></a>
 
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a class="nav-link " href="index.html">Home</a>
+            <a class="nav-link " href="index.php">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="about.html">About</a>
+            <a class="nav-link " href="about.php">About</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="property-grid.html">Available Lands</a>
+            <a class="nav-link " href="property-grid.php">Available Lands</a>
           </li>
 
           <!-- <li class="nav-item">
-            <a class="nav-link " href="blog-grid.html">Blog</a>
+            <a class="nav-link " href="blog-grid.php">Blog</a>
           </li> -->
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item active" href="property-single.html">Property Single</a>
-              <a class="dropdown-item " href="blog-single.html">Blog Single</a>
-              <a class="dropdown-item " href="agents-grid.html">Agents Grid</a>
-              <a class="dropdown-item " href="agent-single.html">Agent Single</a>
+              <a class="dropdown-item active" href="property-single.php">Property Single</a>
+              <a class="dropdown-item " href="blog-single.php">Blog Single</a>
+              <a class="dropdown-item " href="agents-grid.php">Agents Grid</a>
+              <a class="dropdown-item " href="agent-single.php">Agent Single</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="contact.html">Contact</a>
+            <a class="nav-link " href="contact.php">Contact</a>
           </li>
         </ul>
       </div>
@@ -189,21 +183,21 @@
         <div class="row">
           <div class="col-md-12 col-lg-8">
             <div class="title-single-box">
-              <h1 class="title-single">304 Blaster Up</h1>
-              <span class="color-text-a">Chicago, IL 606543</span>
+              <h1 class="title-single">Limbe, Mile 4</h1>
+              <span class="color-text-a">Behind Presbyterian College</span>
             </div>
           </div>
           <div class="col-md-12 col-lg-4">
             <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="index.html">Home</a>
+                  <a href="index.php">Home</a>
                 </li>
                 <li class="breadcrumb-item">
-                  <a href="property-grid.html">Properties</a>
+                  <a href="property-grid.php">Properties</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  304 Blaster Up
+                  Buea, Mile 17
                 </li>
               </ol>
             </nav>
@@ -223,7 +217,7 @@
                   <img src="assets/img/land-1.jpg" alt="">
                 </div>
                 <div class="carousel-item-b swiper-slide">
-                  <img src="assets/img/land-2.jpg" alt="">
+                  <img src="assets/img/land-3.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -262,11 +256,11 @@
                       </li>
                       <li class="d-flex justify-content-between">
                         <strong>Location:</strong>
-                        <span>Chicago, IL 606543</span>
+                        <span>Buea, Mile 17</span>
                       </li>
                       <li class="d-flex justify-content-between">
                         <strong>Property Type:</strong>
-                        <span>House</span>
+                        <span>Land</span>
                       </li>
                       <li class="d-flex justify-content-between">
                         <strong>Status:</strong>
@@ -279,16 +273,16 @@
                         </span>
                       </li>
                       <li class="d-flex justify-content-between">
-                        <strong>Beds:</strong>
-                        <span>4</span>
+                        <strong>Hectares:</strong>
+                        <span>2000</span>
                       </li>
                       <li class="d-flex justify-content-between">
-                        <strong>Baths:</strong>
-                        <span>2</span>
+                        <strong>Price:</strong>
+                        <span>2000.000FCFA</span>
                       </li>
                       <li class="d-flex justify-content-between">
-                        <strong>Garage:</strong>
-                        <span>1</span>
+                        <strong>Owner's Name:</strong>
+                        <span>Nkenganyi Ciovis</span>
                       </li>
                     </ul>
                   </div>
@@ -304,11 +298,9 @@
                 </div>
                 <div class="property-description">
                   <p class="description color-text-a">
-                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit
-                    neque, auctor sit amet
-                    aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta.
-                    Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt
-                    nibh pulvinar quam id dui posuere blandit.
+                    This land is found in Buea, Mile 17. The land is not far from the road and it's ain a very
+                    accessible area where prople are habituated. 
+                    You can meet the owner easily and you guys discuss on the price of the land.
                   </p>
                   <p class="description color-text-a no-margin">
                     Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget
@@ -316,14 +308,18 @@
                     pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
                   </p>
                 </div>
-                <div class="row section-t3">
+
+                <button class="buy-land" id="payunit-pay" onclick="makeid();">Buy This Land</button>
+
+                <!-- <div class="row section-t3">
                   <div class="col-sm-12">
                     <div class="title-box-d">
-                      <h3 class="title-d">Amenities</h3>
+                      <h3 class="title-d">Buy This Land</h3>
                     </div>
                   </div>
-                </div>
-                <div class="amenities-list color-text-a">
+                </div> -->
+
+                <!-- <div class="amenities-list color-text-a">
                   <ul class="list-a no-margin">
                     <li>Balcony</li>
                     <li>Outdoor Kitchen</li>
@@ -335,31 +331,43 @@
                     <li>Sun Room</li>
                     <li>Concrete Flooring</li>
                   </ul>
-                </div>
+                </div>  -->
               </div>
             </div>
           </div>
           <div class="col-md-10 offset-md-1">
             <ul class="nav nav-pills-a nav-pills mb-3 section-t3" id="pills-tab" role="tablist">
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link active" id="pills-video-tab" data-bs-toggle="pill" href="#pills-video" role="tab" aria-controls="pills-video" aria-selected="true">Video</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" id="pills-plans-tab" data-bs-toggle="pill" href="#pills-plans" role="tab" aria-controls="pills-plans" aria-selected="false">Floor Plans</a>
-              </li>
+              </li> -->
               <li class="nav-item">
-                <a class="nav-link" id="pills-map-tab" data-bs-toggle="pill" href="#pills-map" role="tab" aria-controls="pills-map" aria-selected="false">Ubication</a>
+                <a class="nav-link active" id="pills-map-tab" data-bs-toggle="pill" href="#pills-map" role="tab" aria-controls="pills-map" aria-selected="true">Location</a>
               </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade show active" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
+              <!-- <div class="tab-pane fade show active" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
                 <iframe src="https://player.vimeo.com/video/73221098" width="100%" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               </div>
               <div class="tab-pane fade" id="pills-plans" role="tabpanel" aria-labelledby="pills-plans-tab">
                 <img src="assets/img/plan2.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="tab-pane fade" id="pills-map" role="tabpanel" aria-labelledby="pills-map-tab">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968482413!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes+Square!5e0!3m2!1ses-419!2sve!4v1510329142834" width="100%" height="460" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div> -->
+              <div class="tab-pane fade show active" id="pills-map" role="tabpanel" aria-labelledby="pills-map-tab">
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968482413!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes+Square!5e0!3m2!1ses-419!2sve!4v1510329142834" width="100%" height="460" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+                <div class="mapouter">
+                  <div class="gmap_canvas">
+                    <!-- <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=buea,%20mile%2017&t=k&z=19&ie=UTF8&iwloc=&output=embed" width="100%" height="460" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br> -->
+
+                    <!-- <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style> -->
+                    <!-- <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style> -->
+                    <div class="mapouter"><div class="gmap_canvas">
+                    <iframe width="100%" height="460" id="gmap_canvas" src="https://maps.google.com/maps?q=Limbe,%20Presbyterian%20School&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <a href="https://123movies-to.org"></a><br><a href="https://www.embedgooglemap.net"></a></div></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -373,7 +381,7 @@
             </div>
             <div class="row">
               <div class="col-md-6 col-lg-4">
-                <img src="assets/img/iphone.jpg" alt="" class="img-fluid">
+                <img src="assets/img/edited-11.jpg" alt="" class="img-fluid">
               </div>
               <div class="col-md-6 col-lg-4">
                 <div class="property-agent">
@@ -535,16 +543,16 @@
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="about.html">About US</a>
+                  <i class="bi bi-chevron-right"></i> <a href="about.php">About US</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.html">Agents</a>
+                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.php">Agents</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="contact.html">Contact Us</a>
+                  <i class="bi bi-chevron-right"></i> <a href="contact.php">Contact Us</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="property-grid.html">Available lands</a>
+                  <i class="bi bi-chevron-right"></i> <a href="property-grid.php">Available lands</a>
                 </li>
               </ul>
             </div>
@@ -628,8 +636,70 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
+
+
+<!--=========== Tawk.to LiveChat Script Code ============-->
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/62187d131ffac05b1d7ba9e1/1fsnqh5sv';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+  <!--======= PayUnit Javascript code =======-->
+  <!-- <script type="module">
+    import { PayUnit } from "https://cdn.jsdelivr.net/npm/payunitjs@1.0.4/dist/payunit.min.js";
+
+    function readableRandomStringMaker(length) {
+            for (var s = ''; s.length < length; s += 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.charAt(Math.random() * 62 | 0));
+            return s;
+        }
+        console.log(readableRandomStringMaker(length));
+        function makeid(length) {
+            var result = '';
+            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            var charactersLength = characters.length;
+            for (var i = 0; i < length; i++) {
+                result += characters.charAt(Math.floor(Math.random() *
+                    charactersLength));
+            }
+            return result;
+        }
+
+        document.getElementById(makeid(20));
+
+    PayUnit(
+      {
+        apiUsername: "payunit_JULykj8ES",
+        apiPassword: "f628d751-0c83-4b8e-a703-c111d24eeb7b",
+        x_api_key: "dab266340cdbd1d7e0b59fa28a8c514a76c63cdd",
+        mode: "live",
+      },
+      {
+        return_url: "http://127.0.0.1:5500/index.php",
+        notify_url: " ",
+        description: "Online Payment For Land Finder Application",
+        purchaseRef: "",
+        total_amount: "12000",
+        name: "Unique Name",
+        currency: "XAF",
+        transaction_id: 'makeid()',
+      }
+    );
+    
+  </script> -->
 
 </body>
 

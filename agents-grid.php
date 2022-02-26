@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>EstateAgency Bootstrap Template - Index</title>
+  <title>Land Detector And Purchase</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -25,12 +25,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: EstateAgency - v4.7.0
-  * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -138,38 +132,38 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.html">Land<span class="color-b">Detector</span></a>
+      <a class="navbar-brand text-brand" href="index.php">Land<span class="color-b">Detector</span></a>
 
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a class="nav-link " href="index.html">Home</a>
+            <a class="nav-link " href="index.php">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="about.html">About</a>
+            <a class="nav-link " href="about.php">About</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="property-grid.html">Available Lands</a>
+            <a class="nav-link " href="property-grid.php">Available Lands</a>
           </li>
 
           <!-- <li class="nav-item">
-            <a class="nav-link " href="blog-grid.html">Blog</a>
+            <a class="nav-link " href="blog-grid.php">Blog</a>
           </li> -->
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item active" href="property-single.html">Property Single</a>
-              <a class="dropdown-item " href="blog-single.html">Blog Single</a>
-              <a class="dropdown-item " href="agents-grid.html">Agents Grid</a>
-              <a class="dropdown-item " href="agent-single.html">Agent Single</a>
+              <a class="dropdown-item active" href="property-single.php">Property Single</a>
+              <a class="dropdown-item " href="blog-single.php">Blog Single</a>
+              <a class="dropdown-item " href="agents-grid.php">Agents Grid</a>
+              <a class="dropdown-item " href="agent-single.php">Agent Single</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="contact.html">Contact</a>
+            <a class="nav-link " href="contact.php">Contact</a>
           </li>
         </ul>
       </div>
@@ -648,16 +642,16 @@
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="about.html">About US</a>
+                  <i class="bi bi-chevron-right"></i> <a href="about.php">About US</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.html">Agents</a>
+                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.php">Agents</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="contact.html">Contact Us</a>
+                  <i class="bi bi-chevron-right"></i> <a href="contact.php">Contact Us</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="property-grid.html">Available lands</a>
+                  <i class="bi bi-chevron-right"></i> <a href="property-grid.php">Available lands</a>
                 </li>
               </ul>
             </div>
@@ -743,6 +737,21 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!--=========== Tawk.to LiveChat Script Code ============-->
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/62187d131ffac05b1d7ba9e1/1fsnqh5sv';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
 
 </body>
 

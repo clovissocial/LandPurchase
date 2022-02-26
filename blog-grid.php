@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>EstateAgency Bootstrap Template - Index</title>
+  <title>Land Finder And Purchase</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -34,7 +34,6 @@
 </head>
 
 <body>
-
   <!-- ======= Property Search Section ======= -->
   <div class="click-closed"></div>
   <!--/ Form Search Star /-->
@@ -80,9 +79,9 @@
               <label class="pb-2" for="bedrooms">Hectares</label>
               <select class="form-control form-select form-control-a" id="bedrooms">
                 <option>Any</option>
-                <option>200 hectares</option>
-                <option>300 hectares</option>
-                <option>700 hectares</option>
+                <option>200 - 1000 hectares</option>
+                <option>1500 - 4000 hectares</option>
+                <option>4500 - 10,0000 hectares</option>
               </select>
             </div>
           </div>
@@ -114,10 +113,10 @@
               <label class="pb-2" for="price">Min Price</label>
               <select class="form-control form-select form-control-a" id="price">
                 <option>Unlimited</option>
-                <option>2,000,000 FCFA</option>
-                <option>4,000,000 FCFA</option>
-                <option>6,000,000 FCFA</option>
-                <option>8,000,000 FCFA</option>
+                <option>2,000,000  - 4000, 000 FCFA</option>
+                <option>4.5,000,000 - 10, 000, 000 FCFA</option>
+                <option>10.5,000,000 - 15, 000, 000 FCFA</option>
+                <option>15.5,000,000 - 25, 000, 000 FCFA</option>
               </select>
             </div>
           </div>
@@ -138,38 +137,38 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.html">Land<span class="color-b">Detector</span></a>
+      <a class="navbar-brand text-brand" href="index.php">Land<span class="color-b">Finder</span></a>
 
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a class="nav-link " href="index.html">Home</a>
+            <a class="nav-link " href="index.php">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="about.html">About</a>
+            <a class="nav-link " href="about.php">About</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="property-grid.html">Available Lands</a>
+            <a class="nav-link " href="property-grid.php">Available Lands</a>
           </li>
 
           <!-- <li class="nav-item">
-            <a class="nav-link " href="blog-grid.html">Blog</a>
+            <a class="nav-link " href="blog-grid.php">Blog</a>
           </li> -->
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item active" href="property-single.html">Property Single</a>
-              <a class="dropdown-item " href="blog-single.html">Blog Single</a>
-              <a class="dropdown-item " href="agents-grid.html">Agents Grid</a>
-              <a class="dropdown-item " href="agent-single.html">Agent Single</a>
+              <a class="dropdown-item active" href="property-single.php">Property Single</a>
+              <a class="dropdown-item " href="blog-single.php">Blog Single</a>
+              <a class="dropdown-item " href="agents-grid.php">Agents Grid</a>
+              <a class="dropdown-item " href="agent-single.php">Agent Single</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="contact.html">Contact</a>
+            <a class="nav-link " href="contact.php">Contact</a>
           </li>
         </ul>
       </div>
@@ -197,7 +196,7 @@
             <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="index.html">Home</a>
+                  <a href="index.php">Home</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
                   News Grid
@@ -225,7 +224,7 @@
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single.php">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -244,11 +243,11 @@
               <div class="card-overlay">
                 <div class="card-header-b">
                   <div class="card-category-b">
-                    <a href="blog-single.html" class="category-b">Travel</a>
+                    <a href="blog-single.php" class="category-b">Travel</a>
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single.php">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -271,7 +270,7 @@
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single.php">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -294,7 +293,7 @@
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single.php">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -317,7 +316,7 @@
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single.php">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -340,7 +339,7 @@
                   </div>
                   <div class="card-title-b">
                     <h2 class="title-2">
-                      <a href="blog-single.html">Travel is comming
+                      <a href="blog-single.php">Travel is comming
                         <br> new</a>
                     </h2>
                   </div>
@@ -451,16 +450,16 @@
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="about.html">About US</a>
+                  <i class="bi bi-chevron-right"></i> <a href="about.php">About US</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.html">Agents</a>
+                  <i class="bi bi-chevron-right"></i> <a href="agents-grid.php">Agents</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="contact.html">Contact Us</a>
+                  <i class="bi bi-chevron-right"></i> <a href="contact.php">Contact Us</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="property-grid.html">Available lands</a>
+                  <i class="bi bi-chevron-right"></i> <a href="property-grid.php">Available lands</a>
                 </li>
               </ul>
             </div>
@@ -546,6 +545,21 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!--=========== Tawk.to LiveChat Script Code ============-->
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/62187d131ffac05b1d7ba9e1/1fsnqh5sv';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
 
 </body>
 
